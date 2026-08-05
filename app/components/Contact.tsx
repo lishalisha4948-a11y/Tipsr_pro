@@ -8,7 +8,7 @@ export default function Contact() {
         textAlign: "center",
       }}
     >
-      <h2a
+      <h2
         style={{
           fontSize: "42px",
           color: "#22c55e",
