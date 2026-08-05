@@ -8,7 +8,7 @@ export default function Contact() {
         textAlign: "center",
       }}
     >
-      <h2
+      <h2a
         style={{
           fontSize: "42px",
           color: "#22c55e",
@@ -28,6 +28,8 @@ export default function Contact() {
       </p>
 
       <form
+  action="https://formsubmit.co/lishalisha4948@gmail.com"
+  method="POST"
         style={{
           maxWidth: "600px",
           margin: "auto",
@@ -36,8 +38,12 @@ export default function Contact() {
           gap: "20px",
         }}
       >
+       <input type="hidden" name="_captcha" value="false" />
+<input type="hidden" name="_subject" value="New Contact from TipsR Pro" />
+<input type="hidden" name="_next" value="https://tipsr-pro.vercel.app" />
         <input
           type="text"
+          name="name" 
           placeholder="Your Name"
           style={{
             padding: "15px",
@@ -49,6 +55,7 @@ export default function Contact() {
 
         <input
           type="email"
+          name="email"
           placeholder="Your Email"
           style={{
             padding: "15px",
@@ -60,6 +67,7 @@ export default function Contact() {
 
         <input
           type="tel"
+          name="phone"
           placeholder="Phone Number"
           style={{
             padding: "15px",
@@ -70,6 +78,7 @@ export default function Contact() {
         />
 
         <textarea
+         name="message"
           placeholder="Your Message"
           rows={5}
           style={{
