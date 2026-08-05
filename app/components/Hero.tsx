@@ -20,11 +20,11 @@ export default function Hero() {
           marginBottom: "20px",
         }}
       >
-        📊 TipsR Excel Services
+        📊 ExcelPro Services
       </h1>
 
       <h2 style={{ fontSize: "30px" }}>
-        Excel • Google Sheets • Data Solutions
+        Professional Excel & Data Solutions
       </h2>
 
       <p
@@ -36,9 +36,7 @@ export default function Hero() {
           lineHeight: "1.8",
         }}
       >
-        We provide professional Excel, Google Sheets, Data Entry,
-        Data Cleaning, Dashboard Creation, Report Making and Data
-        Analysis services for businesses, students and professionals.
+       We help businesses, startups and professionals with Excel Automation, Google Sheets, Data Cleaning, Dashboards, Reports and Data Analysis to save time and improve productivity.
       </p>
 
       <div
