@@ -28,8 +28,8 @@ export default function Contact() {
       </p>
 
       <form
-  action="https://formsubmit.co/lishalisha4948@gmail.com"
-  method="POST"
+        action="https://formsubmit.co/lishalisha4948@gmail.com"
+        method="POST"
         style={{
           maxWidth: "600px",
           margin: "auto",
@@ -38,69 +38,38 @@ export default function Contact() {
           gap: "20px",
         }}
       >
-       <input type="hidden" name="_captcha" value="false" />
-<input type="hidden" name="_subject" value="New Contact from TipsR Pro" />
-<input type="hidden" name="_next" value="https://tipsr-pro.vercel.app" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_subject" value="New Contact from TipsR Pro" />
+        <input type="hidden" name="_next" value="https://tipsr-pro.vercel.app" />
+
         <input
           type="text"
-          name="name" 
+          name="name"
           placeholder="Your Name"
-          style={{
-            padding: "15px",
-            borderRadius: "8px",
-            border: "none",
-            fontSize: "16px",
-          }}
+          required
         />
 
         <input
           type="email"
           name="email"
           placeholder="Your Email"
-          style={{
-            padding: "15px",
-            borderRadius: "8px",
-            border: "none",
-            fontSize: "16px",
-          }}
+          required
         />
 
         <input
           type="tel"
           name="phone"
           placeholder="Phone Number"
-          style={{
-            padding: "15px",
-            borderRadius: "8px",
-            border: "none",
-            fontSize: "16px",
-          }}
         />
 
         <textarea
-         name="message"
+          name="message"
           placeholder="Your Message"
           rows={5}
-          style={{
-            padding: "15px",
-            borderRadius: "8px",
-            border: "none",
-            fontSize: "16px",
-          }}
+          required
         />
 
-        <button
-          type="submit"
-          style={{
-            background: "#22c55e",
-            color: "#000",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            fontSize: "18px",
-            cursor: "pointer",
-          }}
-        >
+        <button type="submit">
           🚀 Send Message
         </button>
       </form>
