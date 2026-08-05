@@ -20,25 +20,25 @@ export default function Hero() {
           marginBottom: "20px",
         }}
       >
-        🚀 TipsR Pro
+        📊 TipsR Excel Services
       </h1>
 
       <h2 style={{ fontSize: "30px" }}>
-        Smart Digital Solutions
+        Excel • Google Sheets • Data Solutions
       </h2>
 
       <p
         style={{
-          maxWidth: "700px",
+          maxWidth: "750px",
           marginTop: "20px",
           color: "#cbd5e1",
           fontSize: "20px",
           lineHeight: "1.8",
         }}
       >
-        We create professional websites, SEO solutions,
-        blogs, portfolios and modern web applications
-        that help businesses grow online.
+        We provide professional Excel, Google Sheets, Data Entry,
+        Data Cleaning, Dashboard Creation, Report Making and Data
+        Analysis services for businesses, students and professionals.
       </p>
 
       <div
@@ -61,7 +61,7 @@ export default function Hero() {
             cursor: "pointer",
           }}
         >
-          🚀 Get Started
+          💬 Get Free Quote
         </button>
 
         <button
@@ -75,9 +75,10 @@ export default function Hero() {
             cursor: "pointer",
           }}
         >
-          📞 Contact Us
+          📞 Contact Now
         </button>
       </div>
     </section>
   );
 }
+
